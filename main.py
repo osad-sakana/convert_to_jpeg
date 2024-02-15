@@ -2,9 +2,9 @@ import os
 from PIL import Image, UnidentifiedImageError
 from shutil import move
 
-input_dir = '/input'
-output_dir = '/output'
-processed_dir = '/processed'
+input_dir = './input'
+output_dir = './output'
+processed_dir = './processed'
 
 # ディレクトリが存在しない場合は作成
 if not os.path.exists(output_dir):
