@@ -1,0 +1,4 @@
+/output
+/processed
+/input/*
+!/input/ここに変換したいファイルを追加します
